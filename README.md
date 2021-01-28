@@ -8,13 +8,10 @@
 ## 触发方式
 * 点亮`Star`
 * 凌晨4点定时执行
-*  自定义：.github/workflows/work.yaml 编辑
+*  自定义：.github/workflows/work.yaml
 
 ## 注意问题
 
-> **问题一：[项目Fork后定时任务没有执行](https://github.com/ZHDeveloper/JD_Sign_Action/issues/3)**
-> 
->>1、建议修改README.md提交，以触发定时任务。
 >>
 >>2、定时任务的时间是UTC时间，跟中国时间有8小时的时差。
 > 
@@ -45,10 +42,6 @@
 ## 获取Server酱SCKEY
 
 * github 授权登录[Server酱](http://sc.ftqq.com/3.version)官网；
-* 菜单栏`微信推送`扫描绑定微信；
-* 菜单栏`发送消息`拷贝SCKEY；
-
-## 效果截图
 
 ## 参考项目
 * [NobyDa/Script/JD-DailyBonus](https://github.com/NobyDa/Script/blob/master/JD-DailyBonus/JD_DailyBonus.js)
