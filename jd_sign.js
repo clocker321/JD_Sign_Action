@@ -113,6 +113,7 @@ function main() {
     // 3、执行脚本
     exec(`node '${js_path}' >> '${result_path}'`);
     // 4、发送推送
+    fs.writeFileSync(error_path, js_path, 'utf8')
     sendNotificationIfNeed() 
   }).catch((err)=>{
     console.log('脚本文件下载失败，任务中断！');
